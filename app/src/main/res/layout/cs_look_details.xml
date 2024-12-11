@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/memozi1"
+    android:gravity="left"
+    android:clickable="true"
+    android:focusable="true"
+    android:weightSum="4"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+    android:elevation="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp">
+        <!-- 수업 이름, 수업 시작일, 초기화 수업 회수 N회, 수업료 -->
+        <TextView
+            android:id="@+id/className"
+            android:text="수업 이름"
+            android:textSize="24sp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="55dp"
+
+            android:maxLines="1"/>
+        <TextView
+            android:text=""
+            android:textSize="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/startDDay"
+            android:text="시작일"
+            android:textSize="18sp"
+
+
+            android:layout_marginLeft="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:maxLines="1"/>
+        <TextView
+            android:id="@+id/initialPerLesson"
+            android:text="초기화 횟수"
+            android:textSize="18sp"
+
+
+            android:layout_marginLeft="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:maxLines="1"/>
+        <TextView
+            android:id="@+id/tuitionWon"
+            android:text="수업료"
+            android:textSize="18sp"
+
+
+            android:layout_marginLeft="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:maxLines="1"/>
+        <!-- 학생 이름, 학생 나이, 학생이 다니는 학교, 학부모 이름 -->
+        <TextView
+            android:id="@+id/studentName"
+            android:text="학생 이름"
+            android:textSize="18sp"
+
+
+            android:layout_marginLeft="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:maxLines="1"/>
+        <TextView
+            android:id="@+id/studentAge"
+            android:text="학생 나이"
+            android:textSize="18sp"
+
+
+            android:layout_marginLeft="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:maxLines="1"/>
+        <TextView
+            android:id="@+id/studentSchool"
+            android:text="학생이 다니는 학교"
+            android:textSize="18sp"
+
+
+            android:layout_marginLeft="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:maxLines="1"/>
+        <TextView
+            android:id="@+id/parentName"
+            android:text="학부모"
+            android:textSize="18sp"
+
+            android:layout_marginLeft="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:maxLines="1"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/gray_rectangle1"
+    android:gravity="left"
+    android:clickable="true"
+    android:focusable="true"
+    android:weightSum="4"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+    android:elevation="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:baselineAligned="true">
+        <TextView
+            android:id="@+id/hwListView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:textSize="20sp" />
+        <!-- 숙제 알림 보내는 버튼 -->
+        <ImageView
+            android:id="@+id/HWnotification"
+            android:src="@drawable/baseline_add_alert_24"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <!-- 숙제 진행도 체크 -->
+        <ImageView
+            android:id="@+id/HWprogress"
+            android:src="@drawable/baseline_mood_24"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:visibility="invisible" />
+        <CheckBox
+            android:id="@+id/hwCheckbox"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textbookName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- 교재 이름"/>
+        <TextView
+            android:id="@+id/pageRange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- 페이지 범위"/>
+    </LinearLayout>
+
+</LinearLayout>

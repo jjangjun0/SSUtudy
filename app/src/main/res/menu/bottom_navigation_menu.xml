@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home_page"
+        android:title="홈"
+        android:icon="@drawable/baseline_home_button"
+        android:enabled="true"/>
+    <item
+        android:id="@+id/calendar_page"
+        android:title="캘린더"
+        android:icon="@drawable/baseline_calendar_button"
+        android:enabled="true"/>
+    <item
+        android:id="@+id/class_page"
+        android:title="수업"
+        android:icon="@drawable/baseline_sticky_note_2_24"
+        android:enabled="true"/>
+    <item
+        android:id="@+id/homework_page"
+        android:title="숙제"
+        android:icon="@drawable/baseline_book_button"
+        android:enabled="true"/>
+    <item
+        android:id="@+id/chatting_page"
+        android:title="채팅"
+        android:icon="@drawable/baseline_chat_button"
+        android:enabled="true"/>
+
+</menu>

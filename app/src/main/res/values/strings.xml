@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SSUtudy</string>
+    <string name="open_drawer">메뉴 서랍이 열렸습니다</string>
+    <string name="close_drawer">메뉴 서랍이 닫혔습니다.</string>
+    <!--  TODO: Remove or change this placeholder text  -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

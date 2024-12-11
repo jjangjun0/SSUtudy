@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "614387421528",
+    "firebase_url": "https://logindemov-default-rtdb.firebaseio.com",
+    "project_id": "logindemov",
+    "storage_bucket": "logindemov.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614387421528:android:db7f8d077fcdbbabdd952d",
+        "android_client_info": {
+          "package_name": "com.example.SSUtudy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoY0J9ubKDu1s8WuWVGMU_Bk8xOiuII9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614387421528:android:c3b10959aaa16812dd952d",
+        "android_client_info": {
+          "package_name": "com.example.ssutudy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoY0J9ubKDu1s8WuWVGMU_Bk8xOiuII9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/user_nickname"
+        android:icon="@drawable/baseline_account_circle_24"
+        android:title="사용자 이름 변경" />
+    <item
+        android:id="@+id/nav_change_password"
+        android:icon="@drawable/baseline_lock_24"
+        android:title="비밀번호 변경" />
+
+    <item
+        android:id="@+id/nav_start_day"
+        android:icon="@drawable/baseline_edit_24"
+        android:title="과외 시작일 지정" />
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/baseline_logout_24"
+        android:title="로그아웃" />
+
+    <item
+        android:id="@+id/nav_help"
+        android:icon="@drawable/baseline_help_outline_24"
+        android:title="도움말" />
+</menu>
